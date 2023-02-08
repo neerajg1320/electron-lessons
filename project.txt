@@ -1,0 +1,14 @@
+# https://medium.com/jspoint/a-beginners-guide-to-creating-desktop-applications-using-electron-824da5665047
+
+mkdir electron-lessons
+cd electron-lessons
+
+npm init -y
+npm install --save-dev electron
+npx electron .
+
+touch main.js
+touch hello.html
+touch index.html
+
+npm install --save axios sharp
